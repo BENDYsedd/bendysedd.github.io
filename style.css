@@ -29,13 +29,17 @@ p
 {
 	color: white;
 }
-#button
+button
 {
 	font-size:25px;
 	color: white;
 	background-color: hsl(180, 50%, 50%);
 	border: 5px outset white;
 	border-radius: 10px;
+}
+#page2button
+{
+	background-color: hsl(100, 50%, 50%);
 }
 #ponder
 {
