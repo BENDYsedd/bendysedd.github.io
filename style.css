@@ -1,0 +1,52 @@
+﻿@font-face
+{
+	src: url(Heebo-Medium.ttf);
+	font-family:Heebo-Medium;
+}
+
+*
+{
+	font-family: Heebo-Medium, arial;
+	overflow: auto;
+}
+
+body
+{
+	background-color: hsl(100, 100%, 5%);
+}
+.header
+{
+	color: white;
+	text-align: center;
+}
+hr
+{
+	height: 5px;
+	border-width: 0;
+	background-color: white;
+}
+p
+{
+	color: white;
+}
+#button
+{
+	font-size:25px;
+	color: white;
+	background-color: hsl(180, 50%, 50%);
+	border: 5px outset white;
+	border-radius: 10px;
+}
+#ponder
+{
+	box-shadow: -5px 5px 5px hsl(20, 10%, 50%);
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+#see
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+}
