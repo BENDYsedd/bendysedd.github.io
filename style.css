@@ -54,3 +54,10 @@ button
 	margin-right: 10px;
 	float: right;
 }
+#willcam
+{
+	position: fixed;
+	right: 0px;
+	width: 120px;
+	height: 90px;
+}
