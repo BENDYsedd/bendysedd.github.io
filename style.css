@@ -37,6 +37,14 @@ button
 	border: 5px outset white;
 	border-radius: 10px;
 }
+button:hover
+{
+	border: 5px outset hsl(0, 50%, 80%);
+}
+button:active
+{
+	border: 5px inset hsl(0, 50%, 80%);
+}
 #page2button
 {
 	background-color: hsl(100, 50%, 50%);
@@ -60,4 +68,28 @@ button
 	right: 0px;
 	width: 120px;
 	height: 90px;
+}
+.dropdown
+{
+	background-color: lightgray;
+	padding: 5px;
+}
+.dropdown p
+{
+	display: none;
+	background-color:cadetblue;
+	color:black;
+	padding: 10px;
+}
+.dropdown:hover p
+{
+	display:block;
+}
+.dropdown p:hover
+{
+	background-color: rebeccapurple;
+}
+.dropdown p:active
+{
+	background-color: greenyellow;
 }
