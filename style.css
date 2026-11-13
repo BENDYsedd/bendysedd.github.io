@@ -93,3 +93,7 @@ button:active
 {
 	background-color: greenyellow;
 }
+
+.centre {
+	text-align: center;
+}
