@@ -55,12 +55,14 @@ button:active
 	margin-left: 10px;
 	margin-right: 10px;
 	float: left;
+	transform: skewX(45deg);
 }
 #see
 {
 	margin-left: 10px;
 	margin-right: 10px;
 	float: right;
+	transform: rotateZ(15deg);
 }
 #willcam
 {
